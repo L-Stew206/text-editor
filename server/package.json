@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "description": "",
     "main": "server.js",
+    "engines" :{
+        "node": "16.13.1"
+      },
     "scripts": {
         "server": "nodemon server.js --ignore client"
     },
@@ -15,4 +18,5 @@
     "devDependencies": {
         "nodemon": "^2.0.4"
     }
+    
 }
