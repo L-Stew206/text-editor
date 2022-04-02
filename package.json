@@ -1,12 +1,8 @@
 {
   "name": "JATE",
   "version": "1.0.0",
-  "description": "Helps you take notes",
+  "description": "",
   "main": "server.js",
-  "engines": { 
-    "node": "16.13.1"
-  },
-    
   "scripts": {
     "start:dev": "concurrently \"cd client && npm run build\" \"cd server && npm run server\" ",
     "start": "npm run build && cd server && node server.js",
@@ -26,5 +22,10 @@
     "concurrently": "^5.2.0",
     "nodemon": "^2.0.4"
   }
-  
 }
+
+
+
+
+
+
