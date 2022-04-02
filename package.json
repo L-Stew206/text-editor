@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Helps you take notes",
   "main": "server.js",
+  "engines": { 
+    "node": "16.13.1"
+  },
+    
   "scripts": {
     "start:dev": "concurrently \"cd client && npm run build\" \"cd server && npm run server\" ",
     "start": "npm run build && cd server && node server.js",
